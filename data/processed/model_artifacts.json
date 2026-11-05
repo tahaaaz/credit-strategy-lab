@@ -1,0 +1,2363 @@
+{
+ "model_comparison": [
+  {
+   "model": "Scorecard (WoE logistic)",
+   "sample": "train",
+   "auc": 0.8837,
+   "gini": 0.7674,
+   "ks": 0.6025,
+   "brier": 0.03228,
+   "bad_rate": 0.0424,
+   "mean_pd": 0.0423,
+   "n": 42000
+  },
+  {
+   "model": "Scorecard (WoE logistic)",
+   "sample": "test",
+   "auc": 0.8778,
+   "gini": 0.7557,
+   "ks": 0.5945,
+   "brier": 0.03241,
+   "bad_rate": 0.0424,
+   "mean_pd": 0.0405,
+   "n": 18000
+  },
+  {
+   "model": "Scorecard (WoE logistic)",
+   "sample": "oot",
+   "auc": 0.8752,
+   "gini": 0.7504,
+   "ks": 0.5912,
+   "brier": 0.03572,
+   "bad_rate": 0.0474,
+   "mean_pd": 0.0441,
+   "n": 25000
+  },
+  {
+   "model": "Gradient boosting",
+   "sample": "train",
+   "auc": 0.9199,
+   "gini": 0.8398,
+   "ks": 0.6822,
+   "brier": 0.02812,
+   "bad_rate": 0.0424,
+   "mean_pd": 0.0423,
+   "n": 42000
+  },
+  {
+   "model": "Gradient boosting",
+   "sample": "test",
+   "auc": 0.8773,
+   "gini": 0.7546,
+   "ks": 0.6003,
+   "brier": 0.0318,
+   "bad_rate": 0.0424,
+   "mean_pd": 0.0406,
+   "n": 18000
+  },
+  {
+   "model": "Gradient boosting",
+   "sample": "oot",
+   "auc": 0.8733,
+   "gini": 0.7465,
+   "ks": 0.5845,
+   "brier": 0.03473,
+   "bad_rate": 0.0474,
+   "mean_pd": 0.0446,
+   "n": 25000
+  }
+ ],
+ "roc": {
+  "Scorecard (WoE logistic)": [
+   {
+    "fpr": 0.0,
+    "tpr": 0.0
+   },
+   {
+    "fpr": 0.0008,
+    "tpr": 0.0682
+   },
+   {
+    "fpr": 0.0017,
+    "tpr": 0.1062
+   },
+   {
+    "fpr": 0.0031,
+    "tpr": 0.1402
+   },
+   {
+    "fpr": 0.0051,
+    "tpr": 0.1756
+   },
+   {
+    "fpr": 0.006,
+    "tpr": 0.2005
+   },
+   {
+    "fpr": 0.0077,
+    "tpr": 0.2202
+   },
+   {
+    "fpr": 0.0099,
+    "tpr": 0.2412
+   },
+   {
+    "fpr": 0.0121,
+    "tpr": 0.2647
+   },
+   {
+    "fpr": 0.0144,
+    "tpr": 0.2857
+   },
+   {
+    "fpr": 0.0164,
+    "tpr": 0.3054
+   },
+   {
+    "fpr": 0.0193,
+    "tpr": 0.3237
+   },
+   {
+    "fpr": 0.0211,
+    "tpr": 0.3381
+   },
+   {
+    "fpr": 0.0227,
+    "tpr": 0.3565
+   },
+   {
+    "fpr": 0.0244,
+    "tpr": 0.3775
+   },
+   {
+    "fpr": 0.0266,
+    "tpr": 0.4024
+   },
+   {
+    "fpr": 0.0298,
+    "tpr": 0.422
+   },
+   {
+    "fpr": 0.0321,
+    "tpr": 0.4417
+   },
+   {
+    "fpr": 0.0352,
+    "tpr": 0.4561
+   },
+   {
+    "fpr": 0.0375,
+    "tpr": 0.4718
+   },
+   {
+    "fpr": 0.04,
+    "tpr": 0.4875
+   },
+   {
+    "fpr": 0.0429,
+    "tpr": 0.5072
+   },
+   {
+    "fpr": 0.0483,
+    "tpr": 0.5242
+   },
+   {
+    "fpr": 0.0519,
+    "tpr": 0.54
+   },
+   {
+    "fpr": 0.0556,
+    "tpr": 0.5557
+   },
+   {
+    "fpr": 0.0582,
+    "tpr": 0.5727
+   },
+   {
+    "fpr": 0.0635,
+    "tpr": 0.5872
+   },
+   {
+    "fpr": 0.0705,
+    "tpr": 0.6029
+   },
+   {
+    "fpr": 0.0749,
+    "tpr": 0.6186
+   },
+   {
+    "fpr": 0.0819,
+    "tpr": 0.6343
+   },
+   {
+    "fpr": 0.0873,
+    "tpr": 0.6501
+   },
+   {
+    "fpr": 0.0937,
+    "tpr": 0.6632
+   },
+   {
+    "fpr": 0.1023,
+    "tpr": 0.6776
+   },
+   {
+    "fpr": 0.1125,
+    "tpr": 0.6933
+   },
+   {
+    "fpr": 0.1239,
+    "tpr": 0.7064
+   },
+   {
+    "fpr": 0.1383,
+    "tpr": 0.7235
+   },
+   {
+    "fpr": 0.1523,
+    "tpr": 0.7392
+   },
+   {
+    "fpr": 0.1663,
+    "tpr": 0.7536
+   },
+   {
+    "fpr": 0.1761,
+    "tpr": 0.7706
+   },
+   {
+    "fpr": 0.2,
+    "tpr": 0.7851
+   },
+   {
+    "fpr": 0.2176,
+    "tpr": 0.7982
+   },
+   {
+    "fpr": 0.2349,
+    "tpr": 0.8139
+   },
+   {
+    "fpr": 0.2539,
+    "tpr": 0.8283
+   },
+   {
+    "fpr": 0.2741,
+    "tpr": 0.8414
+   },
+   {
+    "fpr": 0.2904,
+    "tpr": 0.8571
+   },
+   {
+    "fpr": 0.3034,
+    "tpr": 0.8702
+   },
+   {
+    "fpr": 0.3317,
+    "tpr": 0.8847
+   },
+   {
+    "fpr": 0.3701,
+    "tpr": 0.8991
+   },
+   {
+    "fpr": 0.3999,
+    "tpr": 0.9148
+   },
+   {
+    "fpr": 0.4426,
+    "tpr": 0.9292
+   },
+   {
+    "fpr": 0.496,
+    "tpr": 0.9423
+   },
+   {
+    "fpr": 0.5323,
+    "tpr": 0.9541
+   },
+   {
+    "fpr": 0.5825,
+    "tpr": 0.9685
+   },
+   {
+    "fpr": 0.711,
+    "tpr": 0.9803
+   },
+   {
+    "fpr": 0.8054,
+    "tpr": 0.9895
+   },
+   {
+    "fpr": 0.9078,
+    "tpr": 0.9961
+   },
+   {
+    "fpr": 0.9608,
+    "tpr": 0.9987
+   },
+   {
+    "fpr": 0.9822,
+    "tpr": 1.0
+   },
+   {
+    "fpr": 0.9949,
+    "tpr": 1.0
+   },
+   {
+    "fpr": 1.0,
+    "tpr": 1.0
+   }
+  ],
+  "Gradient boosting": [
+   {
+    "fpr": 0.0,
+    "tpr": 0.0
+   },
+   {
+    "fpr": 0.0007,
+    "tpr": 0.0708
+   },
+   {
+    "fpr": 0.0019,
+    "tpr": 0.1193
+   },
+   {
+    "fpr": 0.0032,
+    "tpr": 0.1586
+   },
+   {
+    "fpr": 0.0045,
+    "tpr": 0.1822
+   },
+   {
+    "fpr": 0.0064,
+    "tpr": 0.2136
+   },
+   {
+    "fpr": 0.0082,
+    "tpr": 0.2464
+   },
+   {
+    "fpr": 0.0106,
+    "tpr": 0.2713
+   },
+   {
+    "fpr": 0.0135,
+    "tpr": 0.308
+   },
+   {
+    "fpr": 0.0155,
+    "tpr": 0.3421
+   },
+   {
+    "fpr": 0.0188,
+    "tpr": 0.367
+   },
+   {
+    "fpr": 0.0215,
+    "tpr": 0.3919
+   },
+   {
+    "fpr": 0.0245,
+    "tpr": 0.4142
+   },
+   {
+    "fpr": 0.0275,
+    "tpr": 0.4377
+   },
+   {
+    "fpr": 0.032,
+    "tpr": 0.4574
+   },
+   {
+    "fpr": 0.0359,
+    "tpr": 0.4784
+   },
+   {
+    "fpr": 0.0393,
+    "tpr": 0.498
+   },
+   {
+    "fpr": 0.0451,
+    "tpr": 0.5242
+   },
+   {
+    "fpr": 0.0487,
+    "tpr": 0.5439
+   },
+   {
+    "fpr": 0.0556,
+    "tpr": 0.5649
+   },
+   {
+    "fpr": 0.0604,
+    "tpr": 0.5832
+   },
+   {
+    "fpr": 0.0675,
+    "tpr": 0.6029
+   },
+   {
+    "fpr": 0.0731,
+    "tpr": 0.6239
+   },
+   {
+    "fpr": 0.082,
+    "tpr": 0.6435
+   },
+   {
+    "fpr": 0.0919,
+    "tpr": 0.6619
+   },
+   {
+    "fpr": 0.0996,
+    "tpr": 0.6828
+   },
+   {
+    "fpr": 0.1157,
+    "tpr": 0.7012
+   },
+   {
+    "fpr": 0.1261,
+    "tpr": 0.7182
+   },
+   {
+    "fpr": 0.1443,
+    "tpr": 0.7379
+   },
+   {
+    "fpr": 0.1572,
+    "tpr": 0.7562
+   },
+   {
+    "fpr": 0.1852,
+    "tpr": 0.7733
+   },
+   {
+    "fpr": 0.2085,
+    "tpr": 0.7903
+   },
+   {
+    "fpr": 0.2318,
+    "tpr": 0.8073
+   },
+   {
+    "fpr": 0.2477,
+    "tpr": 0.827
+   },
+   {
+    "fpr": 0.269,
+    "tpr": 0.844
+   },
+   {
+    "fpr": 0.3136,
+    "tpr": 0.8611
+   },
+   {
+    "fpr": 0.3358,
+    "tpr": 0.8781
+   },
+   {
+    "fpr": 0.3828,
+    "tpr": 0.8965
+   },
+   {
+    "fpr": 0.4091,
+    "tpr": 0.9135
+   },
+   {
+    "fpr": 0.4814,
+    "tpr": 0.9318
+   },
+   {
+    "fpr": 0.5565,
+    "tpr": 0.9489
+   },
+   {
+    "fpr": 0.6136,
+    "tpr": 0.9672
+   },
+   {
+    "fpr": 0.7076,
+    "tpr": 0.9803
+   },
+   {
+    "fpr": 0.7947,
+    "tpr": 0.9882
+   },
+   {
+    "fpr": 0.8289,
+    "tpr": 0.9895
+   },
+   {
+    "fpr": 0.8413,
+    "tpr": 0.9934
+   },
+   {
+    "fpr": 0.853,
+    "tpr": 0.9948
+   },
+   {
+    "fpr": 0.8681,
+    "tpr": 0.9961
+   },
+   {
+    "fpr": 0.8804,
+    "tpr": 0.9974
+   },
+   {
+    "fpr": 0.8927,
+    "tpr": 0.9974
+   },
+   {
+    "fpr": 0.9004,
+    "tpr": 0.9974
+   },
+   {
+    "fpr": 0.9089,
+    "tpr": 0.9974
+   },
+   {
+    "fpr": 0.9173,
+    "tpr": 0.9987
+   },
+   {
+    "fpr": 0.9279,
+    "tpr": 0.9987
+   },
+   {
+    "fpr": 0.9339,
+    "tpr": 0.9987
+   },
+   {
+    "fpr": 0.94,
+    "tpr": 0.9987
+   },
+   {
+    "fpr": 0.9513,
+    "tpr": 1.0
+   },
+   {
+    "fpr": 0.9574,
+    "tpr": 1.0
+   },
+   {
+    "fpr": 0.9656,
+    "tpr": 1.0
+   },
+   {
+    "fpr": 1.0,
+    "tpr": 1.0
+   }
+  ]
+ },
+ "calibration": {
+  "test": [
+   {
+    "decile": 1,
+    "predicted": 0.0008,
+    "actual": 0.0017,
+    "n": 1800
+   },
+   {
+    "decile": 2,
+    "predicted": 0.0018,
+    "actual": 0.0039,
+    "n": 1800
+   },
+   {
+    "decile": 3,
+    "predicted": 0.0032,
+    "actual": 0.0044,
+    "n": 1800
+   },
+   {
+    "decile": 4,
+    "predicted": 0.0052,
+    "actual": 0.0033,
+    "n": 1800
+   },
+   {
+    "decile": 5,
+    "predicted": 0.0079,
+    "actual": 0.0117,
+    "n": 1800
+   },
+   {
+    "decile": 6,
+    "predicted": 0.0122,
+    "actual": 0.0156,
+    "n": 1800
+   },
+   {
+    "decile": 7,
+    "predicted": 0.0195,
+    "actual": 0.0261,
+    "n": 1800
+   },
+   {
+    "decile": 8,
+    "predicted": 0.034,
+    "actual": 0.0322,
+    "n": 1800
+   },
+   {
+    "decile": 9,
+    "predicted": 0.0712,
+    "actual": 0.06,
+    "n": 1800
+   },
+   {
+    "decile": 10,
+    "predicted": 0.2487,
+    "actual": 0.265,
+    "n": 1800
+   }
+  ],
+  "oot": [
+   {
+    "decile": 1,
+    "predicted": 0.0009,
+    "actual": 0.0032,
+    "n": 2500
+   },
+   {
+    "decile": 2,
+    "predicted": 0.0019,
+    "actual": 0.0028,
+    "n": 2500
+   },
+   {
+    "decile": 3,
+    "predicted": 0.0033,
+    "actual": 0.0048,
+    "n": 2500
+   },
+   {
+    "decile": 4,
+    "predicted": 0.0053,
+    "actual": 0.008,
+    "n": 2500
+   },
+   {
+    "decile": 5,
+    "predicted": 0.0082,
+    "actual": 0.0096,
+    "n": 2500
+   },
+   {
+    "decile": 6,
+    "predicted": 0.0128,
+    "actual": 0.0196,
+    "n": 2500
+   },
+   {
+    "decile": 7,
+    "predicted": 0.0209,
+    "actual": 0.026,
+    "n": 2500
+   },
+   {
+    "decile": 8,
+    "predicted": 0.0377,
+    "actual": 0.0388,
+    "n": 2500
+   },
+   {
+    "decile": 9,
+    "predicted": 0.0796,
+    "actual": 0.0688,
+    "n": 2500
+   },
+   {
+    "decile": 10,
+    "predicted": 0.2701,
+    "actual": 0.292,
+    "n": 2500
+   }
+  ]
+ },
+ "gains_table": [
+  {
+   "min_score": 454.0,
+   "max_score": 547.0,
+   "accounts": 1800.0,
+   "bads": 478.0,
+   "bad_rate": 0.2656,
+   "cum_bad_capture": 0.6265,
+   "cum_accounts": 0.1,
+   "lift": 6.2647,
+   "decile": 1
+  },
+  {
+   "min_score": 547.0,
+   "max_score": 575.0,
+   "accounts": 1800.0,
+   "bads": 109.0,
+   "bad_rate": 0.0606,
+   "cum_bad_capture": 0.7693,
+   "cum_accounts": 0.2,
+   "lift": 1.4286,
+   "decile": 2
+  },
+  {
+   "min_score": 575.0,
+   "max_score": 593.0,
+   "accounts": 1800.0,
+   "bads": 56.0,
+   "bad_rate": 0.0311,
+   "cum_bad_capture": 0.8427,
+   "cum_accounts": 0.3,
+   "lift": 0.7339,
+   "decile": 3
+  },
+  {
+   "min_score": 593.0,
+   "max_score": 608.0,
+   "accounts": 1800.0,
+   "bads": 47.0,
+   "bad_rate": 0.0261,
+   "cum_bad_capture": 0.9043,
+   "cum_accounts": 0.4,
+   "lift": 0.616,
+   "decile": 4
+  },
+  {
+   "min_score": 608.0,
+   "max_score": 621.0,
+   "accounts": 1800.0,
+   "bads": 28.0,
+   "bad_rate": 0.0156,
+   "cum_bad_capture": 0.941,
+   "cum_accounts": 0.5,
+   "lift": 0.367,
+   "decile": 5
+  },
+  {
+   "min_score": 621.0,
+   "max_score": 633.0,
+   "accounts": 1800.0,
+   "bads": 19.0,
+   "bad_rate": 0.0106,
+   "cum_bad_capture": 0.9659,
+   "cum_accounts": 0.6,
+   "lift": 0.249,
+   "decile": 6
+  },
+  {
+   "min_score": 633.0,
+   "max_score": 646.0,
+   "accounts": 1800.0,
+   "bads": 8.0,
+   "bad_rate": 0.0044,
+   "cum_bad_capture": 0.9764,
+   "cum_accounts": 0.7,
+   "lift": 0.1048,
+   "decile": 7
+  },
+  {
+   "min_score": 646.0,
+   "max_score": 661.0,
+   "accounts": 1800.0,
+   "bads": 8.0,
+   "bad_rate": 0.0044,
+   "cum_bad_capture": 0.9869,
+   "cum_accounts": 0.8,
+   "lift": 0.1048,
+   "decile": 8
+  },
+  {
+   "min_score": 661.0,
+   "max_score": 680.0,
+   "accounts": 1800.0,
+   "bads": 7.0,
+   "bad_rate": 0.0039,
+   "cum_bad_capture": 0.9961,
+   "cum_accounts": 0.9,
+   "lift": 0.0917,
+   "decile": 9
+  },
+  {
+   "min_score": 680.0,
+   "max_score": 720.0,
+   "accounts": 1800.0,
+   "bads": 3.0,
+   "bad_rate": 0.0017,
+   "cum_bad_capture": 1.0,
+   "cum_accounts": 1.0,
+   "lift": 0.0393,
+   "decile": 10
+  }
+ ],
+ "scorecard": [
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "<= 714",
+   "accounts": 5313,
+   "bad_rate": 0.1916,
+   "woe": -1.6764,
+   "points": 24,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(714, 758]",
+   "accounts": 5235,
+   "bad_rate": 0.0586,
+   "woe": -0.3413,
+   "points": 38,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(758, 791]",
+   "accounts": 5306,
+   "bad_rate": 0.0366,
+   "woe": 0.1534,
+   "points": 43,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(791, 820]",
+   "accounts": 5318,
+   "bad_rate": 0.0188,
+   "woe": 0.8342,
+   "points": 50,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(820, 849]",
+   "accounts": 5089,
+   "bad_rate": 0.0151,
+   "woe": 1.0538,
+   "points": 52,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(849, 882]",
+   "accounts": 5258,
+   "bad_rate": 0.0101,
+   "woe": 1.4622,
+   "points": 57,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "(882, 926]",
+   "accounts": 5255,
+   "bad_rate": 0.0042,
+   "woe": 2.3337,
+   "points": 66,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "bin": "> 926",
+   "accounts": 5226,
+   "bad_rate": 0.0017,
+   "woe": 3.1929,
+   "points": 75,
+   "coefficient": -0.3643
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "<= 0.0561",
+   "accounts": 5251,
+   "bad_rate": 0.0029,
+   "woe": 2.707,
+   "points": 76,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.0561, 0.1582]",
+   "accounts": 5250,
+   "bad_rate": 0.0065,
+   "woe": 1.903,
+   "points": 66,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.1582, 0.2749]",
+   "accounts": 5252,
+   "bad_rate": 0.0118,
+   "woe": 1.3038,
+   "points": 58,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.2749, 0.3987]",
+   "accounts": 5247,
+   "bad_rate": 0.0154,
+   "woe": 1.0337,
+   "points": 55,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.3987, 0.5326]",
+   "accounts": 5251,
+   "bad_rate": 0.0223,
+   "woe": 0.6617,
+   "points": 50,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.5326, 0.6763]",
+   "accounts": 5252,
+   "bad_rate": 0.0331,
+   "woe": 0.2552,
+   "points": 45,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "(0.6763, 0.8372]",
+   "accounts": 5248,
+   "bad_rate": 0.0575,
+   "woe": -0.3213,
+   "points": 37,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "bin": "> 0.8372",
+   "accounts": 5249,
+   "bad_rate": 0.1896,
+   "woe": -1.6631,
+   "points": 20,
+   "coefficient": -0.4461
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "<= 0.075",
+   "accounts": 5258,
+   "bad_rate": 0.0027,
+   "woe": 2.7752,
+   "points": 49,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.075, 0.1097]",
+   "accounts": 5256,
+   "bad_rate": 0.0084,
+   "woe": 1.6477,
+   "points": 46,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.1097, 0.1403]",
+   "accounts": 5248,
+   "bad_rate": 0.0177,
+   "woe": 0.8943,
+   "points": 44,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.1403, 0.1721]",
+   "accounts": 5253,
+   "bad_rate": 0.0253,
+   "woe": 0.5313,
+   "points": 43,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.1721, 0.2074]",
+   "accounts": 5243,
+   "bad_rate": 0.0332,
+   "woe": 0.2535,
+   "points": 42,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.2074, 0.2523]",
+   "accounts": 5244,
+   "bad_rate": 0.0477,
+   "woe": -0.123,
+   "points": 41,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "(0.2523, 0.3257]",
+   "accounts": 5250,
+   "bad_rate": 0.0678,
+   "woe": -0.4961,
+   "points": 40,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "bin": "> 0.3257",
+   "accounts": 5248,
+   "bad_rate": 0.1364,
+   "woe": -1.271,
+   "points": 38,
+   "coefficient": -0.0912
+  },
+  {
+   "feature": "min_pay_only_3m",
+   "label": "Min-pay only (3m)",
+   "bin": "N",
+   "accounts": 31261,
+   "bad_rate": 0.0168,
+   "woe": 0.9516,
+   "points": 51,
+   "coefficient": -0.3579
+  },
+  {
+   "feature": "min_pay_only_3m",
+   "label": "Min-pay only (3m)",
+   "bin": "Y",
+   "accounts": 10739,
+   "bad_rate": 0.1169,
+   "woe": -1.0951,
+   "points": 30,
+   "coefficient": -0.3579
+  },
+  {
+   "feature": "delinq_24m",
+   "label": "Delinquencies (24m)",
+   "bin": "<= 0",
+   "accounts": 32765,
+   "bad_rate": 0.0217,
+   "woe": 0.6909,
+   "points": 50,
+   "coefficient": -0.4277
+  },
+  {
+   "feature": "delinq_24m",
+   "label": "Delinquencies (24m)",
+   "bin": "(0, 1]",
+   "accounts": 7171,
+   "bad_rate": 0.0721,
+   "woe": -0.5629,
+   "points": 34,
+   "coefficient": -0.4277
+  },
+  {
+   "feature": "delinq_24m",
+   "label": "Delinquencies (24m)",
+   "bin": "> 1",
+   "accounts": 2064,
+   "bad_rate": 0.2674,
+   "woe": -2.1099,
+   "points": 15,
+   "coefficient": -0.4277
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "<= 1,600",
+   "accounts": 5284,
+   "bad_rate": 0.1277,
+   "woe": -1.1952,
+   "points": 31,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(1,600, 2,550]",
+   "accounts": 5372,
+   "bad_rate": 0.0692,
+   "woe": -0.5185,
+   "points": 37,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(2,550, 3,450]",
+   "accounts": 5156,
+   "bad_rate": 0.05,
+   "woe": -0.1738,
+   "points": 40,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(3,450, 4,500]",
+   "accounts": 5304,
+   "bad_rate": 0.0343,
+   "woe": 0.219,
+   "points": 43,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(4,500, 5,750]",
+   "accounts": 5156,
+   "bad_rate": 0.0237,
+   "woe": 0.6004,
+   "points": 46,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(5,750, 7,500]",
+   "accounts": 5249,
+   "bad_rate": 0.0158,
+   "woe": 1.0095,
+   "points": 50,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "(7,500, 1.075e+04]",
+   "accounts": 5266,
+   "bad_rate": 0.0103,
+   "woe": 1.445,
+   "points": 53,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "bin": "> 1.075e+04",
+   "accounts": 5213,
+   "bad_rate": 0.0065,
+   "woe": 1.8959,
+   "points": 57,
+   "coefficient": -0.2907
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "<= 57.63",
+   "accounts": 5250,
+   "bad_rate": 0.1145,
+   "woe": -1.0708,
+   "points": 36,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "(57.63, 91.38]",
+   "accounts": 5251,
+   "bad_rate": 0.0577,
+   "woe": -0.3244,
+   "points": 40,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "(91.38, 124.8]",
+   "accounts": 5250,
+   "bad_rate": 0.0474,
+   "woe": -0.1178,
+   "points": 41,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "(124.8, 164.3]",
+   "accounts": 5249,
+   "bad_rate": 0.0373,
+   "woe": 0.1313,
+   "points": 42,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "(164.3, 282.4]",
+   "accounts": 10500,
+   "bad_rate": 0.0268,
+   "woe": 0.476,
+   "points": 44,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "(282.4, 407]",
+   "accounts": 5250,
+   "bad_rate": 0.0166,
+   "woe": 0.9619,
+   "points": 46,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "bin": "> 407",
+   "accounts": 5250,
+   "bad_rate": 0.012,
+   "woe": 1.2871,
+   "points": 47,
+   "coefficient": -0.1638
+  },
+  {
+   "feature": "revolver",
+   "label": "Revolver flag",
+   "bin": "N",
+   "accounts": 12075,
+   "bad_rate": 0.0109,
+   "woe": 1.3841,
+   "points": 47,
+   "coefficient": -0.1403
+  },
+  {
+   "feature": "revolver",
+   "label": "Revolver flag",
+   "bin": "Y",
+   "accounts": 29925,
+   "bad_rate": 0.0551,
+   "woe": -0.275,
+   "points": 40,
+   "coefficient": -0.1403
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "bin": "<= 0",
+   "accounts": 18686,
+   "bad_rate": 0.0253,
+   "woe": 0.5353,
+   "points": 46,
+   "coefficient": -0.314
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "bin": "(0, 1]",
+   "accounts": 14391,
+   "bad_rate": 0.0381,
+   "woe": 0.1098,
+   "points": 42,
+   "coefficient": -0.314
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "bin": "(1, 2]",
+   "accounts": 6219,
+   "bad_rate": 0.069,
+   "woe": -0.5153,
+   "points": 37,
+   "coefficient": -0.314
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "bin": "> 2",
+   "accounts": 2704,
+   "bad_rate": 0.122,
+   "woe": -1.1447,
+   "points": 31,
+   "coefficient": -0.314
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "<= 27",
+   "accounts": 5868,
+   "bad_rate": 0.0799,
+   "woe": -0.6732,
+   "points": 36,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(27, 33]",
+   "accounts": 5246,
+   "bad_rate": 0.0499,
+   "woe": -0.1718,
+   "points": 40,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(33, 38]",
+   "accounts": 5716,
+   "bad_rate": 0.0455,
+   "woe": -0.0736,
+   "points": 41,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(38, 42]",
+   "accounts": 5013,
+   "bad_rate": 0.0431,
+   "woe": -0.0173,
+   "points": 41,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(42, 46]",
+   "accounts": 4904,
+   "bad_rate": 0.0396,
+   "woe": 0.0715,
+   "points": 42,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(46, 51]",
+   "accounts": 5429,
+   "bad_rate": 0.0282,
+   "woe": 0.4217,
+   "points": 45,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "(51, 57]",
+   "accounts": 4700,
+   "bad_rate": 0.0277,
+   "woe": 0.4404,
+   "points": 45,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "bin": "> 57",
+   "accounts": 5124,
+   "bad_rate": 0.0187,
+   "woe": 0.8377,
+   "points": 48,
+   "coefficient": -0.2789
+  },
+  {
+   "feature": "cash_advance_6m",
+   "label": "Cash advance (6m)",
+   "bin": "N",
+   "accounts": 39250,
+   "bad_rate": 0.0372,
+   "woe": 0.1361,
+   "points": 43,
+   "coefficient": -0.317
+  },
+  {
+   "feature": "cash_advance_6m",
+   "label": "Cash advance (6m)",
+   "bin": "Y",
+   "accounts": 2750,
+   "bad_rate": 0.1164,
+   "woe": -1.0912,
+   "points": 31,
+   "coefficient": -0.317
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "<= 940",
+   "accounts": 5323,
+   "bad_rate": 0.0289,
+   "woe": 0.3945,
+   "points": 45,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "(940, 1,480]",
+   "accounts": 5186,
+   "bad_rate": 0.0305,
+   "woe": 0.3412,
+   "points": 45,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "(1,480, 2,050]",
+   "accounts": 5244,
+   "bad_rate": 0.0311,
+   "woe": 0.3207,
+   "points": 45,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "(2,050, 3,660]",
+   "accounts": 10529,
+   "bad_rate": 0.0354,
+   "woe": 0.1871,
+   "points": 43,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "(3,660, 4,940]",
+   "accounts": 5226,
+   "bad_rate": 0.0446,
+   "woe": -0.0532,
+   "points": 41,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "(4,940, 7,470]",
+   "accounts": 5249,
+   "bad_rate": 0.0516,
+   "woe": -0.207,
+   "points": 39,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "bin": "> 7,470",
+   "accounts": 5243,
+   "bad_rate": 0.0816,
+   "woe": -0.6966,
+   "points": 34,
+   "coefficient": -0.361
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "bin": "Employed",
+   "accounts": 25988,
+   "bad_rate": 0.0386,
+   "woe": 0.0974,
+   "points": 42,
+   "coefficient": -0.2667
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "bin": "Retired",
+   "accounts": 5832,
+   "bad_rate": 0.0343,
+   "woe": 0.2191,
+   "points": 43,
+   "coefficient": -0.2667
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "bin": "Self-employed",
+   "accounts": 5059,
+   "bad_rate": 0.0376,
+   "woe": 0.1247,
+   "points": 42,
+   "coefficient": -0.2667
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "bin": "Student",
+   "accounts": 3241,
+   "bad_rate": 0.0565,
+   "woe": -0.3029,
+   "points": 39,
+   "coefficient": -0.2667
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "bin": "Unemployed",
+   "accounts": 1880,
+   "bad_rate": 0.108,
+   "woe": -1.007,
+   "points": 34,
+   "coefficient": -0.2667
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "bin": "Living with parents",
+   "accounts": 2596,
+   "bad_rate": 0.0682,
+   "woe": -0.5043,
+   "points": 40,
+   "coefficient": -0.1088
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "bin": "Mortgage",
+   "accounts": 19114,
+   "bad_rate": 0.0413,
+   "woe": 0.028,
+   "points": 41,
+   "coefficient": -0.1088
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "bin": "Owner outright",
+   "accounts": 6646,
+   "bad_rate": 0.0223,
+   "woe": 0.6621,
+   "points": 43,
+   "coefficient": -0.1088
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "bin": "Renter",
+   "accounts": 13644,
+   "bad_rate": 0.0488,
+   "woe": -0.1477,
+   "points": 41,
+   "coefficient": -0.1088
+  }
+ ],
+ "information_value": [
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "iv": 1.7613,
+   "selected": true
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "iv": 1.5622,
+   "selected": true
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "iv": 1.0225,
+   "selected": true
+  },
+  {
+   "feature": "min_pay_only_3m",
+   "label": "Min-pay only (3m)",
+   "iv": 0.9602,
+   "selected": true
+  },
+  {
+   "feature": "delinq_24m",
+   "label": "Delinquencies (24m)",
+   "iv": 0.9201,
+   "selected": true
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "iv": 0.8358,
+   "selected": true
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "iv": 0.4988,
+   "selected": true
+  },
+  {
+   "feature": "disposable_income_monthly",
+   "label": "Monthly disposable income",
+   "iv": 0.3964,
+   "selected": false
+  },
+  {
+   "feature": "revolver",
+   "label": "Revolver flag",
+   "iv": 0.3692,
+   "selected": true
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "iv": 0.2991,
+   "selected": true
+  },
+  {
+   "feature": "annual_income",
+   "label": "Annual income",
+   "iv": 0.2456,
+   "selected": false
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "iv": 0.1884,
+   "selected": true
+  },
+  {
+   "feature": "cash_advance_6m",
+   "label": "Cash advance (6m)",
+   "iv": 0.1467,
+   "selected": true
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "iv": 0.1382,
+   "selected": true
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "iv": 0.0945,
+   "selected": true
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "iv": 0.0796,
+   "selected": true
+  },
+  {
+   "feature": "months_on_book",
+   "label": "Months on book",
+   "iv": 0.0047,
+   "selected": false
+  },
+  {
+   "feature": "region",
+   "label": "Region",
+   "iv": 0.0042,
+   "selected": false
+  }
+ ],
+ "gbm_importance": [
+  {
+   "feature": "bureau_score",
+   "label": "Bureau score",
+   "importance": 0.06335
+  },
+  {
+   "feature": "utilisation",
+   "label": "Utilisation",
+   "importance": 0.02318
+  },
+  {
+   "feature": "min_pay_only_3m",
+   "label": "Min-pay only (3m)",
+   "importance": 0.00876
+  },
+  {
+   "feature": "delinq_24m",
+   "label": "Delinquencies (24m)",
+   "importance": 0.00871
+  },
+  {
+   "feature": "credit_limit",
+   "label": "Credit limit",
+   "importance": 0.00331
+  },
+  {
+   "feature": "searches_6m",
+   "label": "Credit searches (6m)",
+   "importance": 0.00211
+  },
+  {
+   "feature": "age",
+   "label": "Age",
+   "importance": 0.00121
+  },
+  {
+   "feature": "disposable_income_monthly",
+   "label": "Monthly disposable income",
+   "importance": 0.00119
+  },
+  {
+   "feature": "external_unsecured_debt",
+   "label": "External unsecured debt",
+   "importance": 0.00109
+  },
+  {
+   "feature": "annual_income",
+   "label": "Annual income",
+   "importance": 0.00056
+  },
+  {
+   "feature": "months_on_book",
+   "label": "Months on book",
+   "importance": 0.00051
+  },
+  {
+   "feature": "cash_advance_6m",
+   "label": "Cash advance (6m)",
+   "importance": 0.0002
+  },
+  {
+   "feature": "region",
+   "label": "Region",
+   "importance": 0.00015
+  },
+  {
+   "feature": "housing_status",
+   "label": "Housing status",
+   "importance": 4e-05
+  },
+  {
+   "feature": "revolver",
+   "label": "Revolver flag",
+   "importance": -3e-05
+  },
+  {
+   "feature": "dti",
+   "label": "Debt-to-income",
+   "importance": -0.00015
+  },
+  {
+   "feature": "employment_status",
+   "label": "Employment status",
+   "importance": -0.00027
+  },
+  {
+   "feature": "monthly_spend",
+   "label": "Monthly spend",
+   "importance": -0.00044
+  }
+ ],
+ "psi": {
+  "score_psi": 0.029,
+  "score_rag": "GREEN",
+  "oot_score_psi": 0.0012,
+  "score_bins": [
+   {
+    "bin": "< 546",
+    "expected": 0.0977,
+    "actual": 0.1326,
+    "psi": 0.01069
+   },
+   {
+    "bin": "546-573",
+    "expected": 0.1018,
+    "actual": 0.1195,
+    "psi": 0.00283
+   },
+   {
+    "bin": "574-591",
+    "expected": 0.0974,
+    "actual": 0.1025,
+    "psi": 0.00026
+   },
+   {
+    "bin": "592-606",
+    "expected": 0.098,
+    "actual": 0.101,
+    "psi": 9e-05
+   },
+   {
+    "bin": "607-620",
+    "expected": 0.1041,
+    "actual": 0.1058,
+    "psi": 3e-05
+   },
+   {
+    "bin": "621-632",
+    "expected": 0.0975,
+    "actual": 0.0936,
+    "psi": 0.00016
+   },
+   {
+    "bin": "633-645",
+    "expected": 0.1019,
+    "actual": 0.0959,
+    "psi": 0.00037
+   },
+   {
+    "bin": "646-659",
+    "expected": 0.096,
+    "actual": 0.0908,
+    "psi": 0.0003
+   },
+   {
+    "bin": "660-678",
+    "expected": 0.1051,
+    "actual": 0.0892,
+    "psi": 0.0026
+   },
+   {
+    "bin": ">= 679",
+    "expected": 0.1005,
+    "actual": 0.0692,
+    "psi": 0.01169
+   }
+  ],
+  "features": [
+   {
+    "feature": "utilisation",
+    "label": "Utilisation",
+    "psi": 0.1391,
+    "rag": "AMBER"
+   },
+   {
+    "feature": "searches_6m",
+    "label": "Credit searches (6m)",
+    "psi": 0.1125,
+    "rag": "AMBER"
+   },
+   {
+    "feature": "dti",
+    "label": "Debt-to-income",
+    "psi": 0.0415,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "credit_limit",
+    "label": "Credit limit",
+    "psi": 0.013,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "monthly_spend",
+    "label": "Monthly spend",
+    "psi": 0.01,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "external_unsecured_debt",
+    "label": "External unsecured debt",
+    "psi": 0.0098,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "revolver",
+    "label": "Revolver flag",
+    "psi": 0.0075,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "min_pay_only_3m",
+    "label": "Min-pay only (3m)",
+    "psi": 0.0074,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "age",
+    "label": "Age",
+    "psi": 0.0005,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "bureau_score",
+    "label": "Bureau score",
+    "psi": 0.0003,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "employment_status",
+    "label": "Employment status",
+    "psi": 0.0003,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "delinq_24m",
+    "label": "Delinquencies (24m)",
+    "psi": 0.0,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "cash_advance_6m",
+    "label": "Cash advance (6m)",
+    "psi": 0.0,
+    "rag": "GREEN"
+   },
+   {
+    "feature": "housing_status",
+    "label": "Housing status",
+    "psi": 0.0,
+    "rag": "GREEN"
+   }
+  ]
+ },
+ "score_distribution": [
+  {
+   "score": 440,
+   "good": 0.0,
+   "bad": 0.0026
+  },
+  {
+   "score": 460,
+   "good": 0.0008,
+   "bad": 0.0668
+  },
+  {
+   "score": 480,
+   "good": 0.0056,
+   "bad": 0.1376
+  },
+  {
+   "score": 500,
+   "good": 0.0168,
+   "bad": 0.1599
+  },
+  {
+   "score": 520,
+   "good": 0.0338,
+   "bad": 0.1966
+  },
+  {
+   "score": 540,
+   "good": 0.0566,
+   "bad": 0.1311
+  },
+  {
+   "score": 560,
+   "good": 0.085,
+   "bad": 0.0891
+  },
+  {
+   "score": 580,
+   "good": 0.119,
+   "bad": 0.097
+  },
+  {
+   "score": 600,
+   "good": 0.1533,
+   "bad": 0.059
+  },
+  {
+   "score": 620,
+   "good": 0.169,
+   "bad": 0.0328
+  },
+  {
+   "score": 640,
+   "good": 0.1453,
+   "bad": 0.0131
+  },
+  {
+   "score": 660,
+   "good": 0.1105,
+   "bad": 0.0105
+  },
+  {
+   "score": 680,
+   "good": 0.0741,
+   "bad": 0.0039
+  },
+  {
+   "score": 700,
+   "good": 0.0302,
+   "bad": 0.0
+  },
+  {
+   "score": 720,
+   "good": 0.0001,
+   "bad": 0.0
+  }
+ ],
+ "pma": {
+  "factor": 1.0744,
+  "oot_actual": 0.0474,
+  "oot_predicted": 0.0441,
+  "rationale": "Out-of-time default rate exceeds model prediction (macro deterioration); a multiplicative post-model adjustment is applied to current-book PDs pending a full recalibration."
+ },
+ "dq_report": [
+  {
+   "cohort": "development",
+   "check": "Row count > 0",
+   "status": "PASS",
+   "detail": "60,000 rows"
+  },
+  {
+   "cohort": "development",
+   "check": "Unique account_id",
+   "status": "PASS",
+   "detail": "0 duplicates"
+  },
+  {
+   "cohort": "development",
+   "check": "No nulls in critical fields",
+   "status": "PASS",
+   "detail": "0 nulls"
+  },
+  {
+   "cohort": "development",
+   "check": "Range age in [18, 100]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range annual_income in [1, 1000000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range months_on_book in [0, 600]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range bureau_score in [0, 999]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range utilisation in [0, 1.1]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range credit_limit in [100, 50000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range apr in [0, 40]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range delinq_24m in [0, 24]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Range searches_6m in [0, 50]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "development",
+   "check": "Balance <= 110% of limit",
+   "status": "PASS",
+   "detail": "0 accounts"
+  },
+  {
+   "cohort": "development",
+   "check": "Utilisation reconciles to balance/limit",
+   "status": "PASS",
+   "detail": "0 mismatches"
+  },
+  {
+   "cohort": "development",
+   "check": "Negative disposable income share < 25%",
+   "status": "PASS",
+   "detail": "21.6% of accounts"
+  },
+  {
+   "cohort": "development",
+   "check": "Default rate within expected 1%-10%",
+   "status": "PASS",
+   "detail": "4.24%"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Row count > 0",
+   "status": "PASS",
+   "detail": "25,000 rows"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Unique account_id",
+   "status": "PASS",
+   "detail": "0 duplicates"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "No nulls in critical fields",
+   "status": "PASS",
+   "detail": "0 nulls"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range age in [18, 100]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range annual_income in [1, 1000000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range months_on_book in [0, 600]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range bureau_score in [0, 999]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range utilisation in [0, 1.1]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range credit_limit in [100, 50000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range apr in [0, 40]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range delinq_24m in [0, 24]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Range searches_6m in [0, 50]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Balance <= 110% of limit",
+   "status": "PASS",
+   "detail": "0 accounts"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Utilisation reconciles to balance/limit",
+   "status": "PASS",
+   "detail": "0 mismatches"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Negative disposable income share < 25%",
+   "status": "PASS",
+   "detail": "20.2% of accounts"
+  },
+  {
+   "cohort": "out_of_time",
+   "check": "Default rate within expected 1%-10%",
+   "status": "PASS",
+   "detail": "4.74%"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Row count > 0",
+   "status": "PASS",
+   "detail": "30,000 rows"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Unique account_id",
+   "status": "PASS",
+   "detail": "0 duplicates"
+  },
+  {
+   "cohort": "current_book",
+   "check": "No nulls in critical fields",
+   "status": "PASS",
+   "detail": "0 nulls"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range age in [18, 100]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range annual_income in [1, 1000000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range months_on_book in [0, 600]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range bureau_score in [0, 999]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range utilisation in [0, 1.1]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range credit_limit in [100, 50000]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range apr in [0, 40]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range delinq_24m in [0, 24]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Range searches_6m in [0, 50]",
+   "status": "PASS",
+   "detail": "0 out of range"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Balance <= 110% of limit",
+   "status": "PASS",
+   "detail": "0 accounts"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Utilisation reconciles to balance/limit",
+   "status": "PASS",
+   "detail": "0 mismatches"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Negative disposable income share < 25%",
+   "status": "PASS",
+   "detail": "18.5% of accounts"
+  },
+  {
+   "cohort": "current_book",
+   "check": "Outcome window not yet matured",
+   "status": "PASS",
+   "detail": "no performance - strategy scoring only"
+  }
+ ],
+ "model_meta": {
+  "champion": "Scorecard (WoE logistic)",
+  "challenger": "Gradient boosting",
+  "features": [
+   {
+    "feature": "bureau_score",
+    "label": "Bureau score"
+   },
+   {
+    "feature": "utilisation",
+    "label": "Utilisation"
+   },
+   {
+    "feature": "dti",
+    "label": "Debt-to-income"
+   },
+   {
+    "feature": "min_pay_only_3m",
+    "label": "Min-pay only (3m)"
+   },
+   {
+    "feature": "delinq_24m",
+    "label": "Delinquencies (24m)"
+   },
+   {
+    "feature": "credit_limit",
+    "label": "Credit limit"
+   },
+   {
+    "feature": "monthly_spend",
+    "label": "Monthly spend"
+   },
+   {
+    "feature": "revolver",
+    "label": "Revolver flag"
+   },
+   {
+    "feature": "searches_6m",
+    "label": "Credit searches (6m)"
+   },
+   {
+    "feature": "age",
+    "label": "Age"
+   },
+   {
+    "feature": "cash_advance_6m",
+    "label": "Cash advance (6m)"
+   },
+   {
+    "feature": "external_unsecured_debt",
+    "label": "External unsecured debt"
+   },
+   {
+    "feature": "employment_status",
+    "label": "Employment status"
+   },
+   {
+    "feature": "housing_status",
+    "label": "Housing status"
+   }
+  ],
+  "scaling": {
+   "base_score": 600,
+   "base_odds": 50,
+   "pdo": 20
+  },
+  "samples": {
+   "train": 42000,
+   "test": 18000,
+   "oot": 25000,
+   "current_book": 30000
+  },
+  "obs_dates": {
+   "development": "2023-12-31",
+   "out_of_time": "2024-06-30",
+   "current_book": "2025-09-30"
+  },
+  "generated_at": "2026-11-05T17:40:53+00:00"
+ }
+}
